@@ -1,12 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IslandEscape.Plugins", "IslandEscape.Plugins.csproj", "{11B61AD4-BE4A-99CB-4D77-61204535B00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IslandEscape", "IslandEscape.csproj", "{CFDE0C16-678E-D7C0-5C3C-35424BDD57DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IslandEscape.Editor.Plugins", "IslandEscape.Editor.Plugins.csproj", "{D465822A-B364-C761-B89A-74F6CBBDA2DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B61AD4-BE4A-99CB-4D77-61204535B00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B61AD4-BE4A-99CB-4D77-61204535B00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B61AD4-BE4A-99CB-4D77-61204535B00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B61AD4-BE4A-99CB-4D77-61204535B00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDE0C16-678E-D7C0-5C3C-35424BDD57DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDE0C16-678E-D7C0-5C3C-35424BDD57DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDE0C16-678E-D7C0-5C3C-35424BDD57DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDE0C16-678E-D7C0-5C3C-35424BDD57DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D465822A-B364-C761-B89A-74F6CBBDA2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D465822A-B364-C761-B89A-74F6CBBDA2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D465822A-B364-C761-B89A-74F6CBBDA2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D465822A-B364-C761-B89A-74F6CBBDA2DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
