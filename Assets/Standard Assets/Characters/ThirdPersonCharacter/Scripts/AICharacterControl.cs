@@ -32,6 +32,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 character.Move(agent.desiredVelocity, false, false);
             else
                 character.Move(Vector3.zero, false, false);
+
+            
+            
         }
 
 
@@ -39,5 +42,11 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         {
             this.target = target;
         }
+
+        public bool HasTarget()
+        {
+            return (this.target != null);
+        }
+
     }
 }
