@@ -227,8 +227,10 @@
   <ItemGroup>
     <Compile Include="Assets\FollowCharacter.cs" />
     <Compile Include="Assets\Scripts\AgentChopTree.cs" />
+    <Compile Include="Assets\Scripts\AgentManager.cs" />
     <Compile Include="Assets\Scripts\ChopTree.cs" />
-    <Compile Include="Assets\TreeManager.cs" />
+    <Compile Include="Assets\Scripts\MaterialContainer.cs" />
+    <Compile Include="Assets\Scripts\TreeManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BrokenVector\TreeRandomizer\readme.txt" />
