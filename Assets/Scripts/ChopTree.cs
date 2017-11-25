@@ -8,12 +8,14 @@ public class ChopTree : MonoBehaviour {
     private float countdown = 2.0f;
     private bool startcountdown = false;
     private Transform collecter = null;
+    public Transform player;
 
     public float quantity;
 
     public void Start()
     {
         quantity = 3.0f;
+        player = gameObject.GetComponentInParent<TreeManager>().player;
     }
 
     private void OnMouseDown()
@@ -22,6 +24,11 @@ public class ChopTree : MonoBehaviour {
         rb.useGravity = true;
         rb.isKinematic = false;
         //startcountdown = true;
+
+        if (player != null)
+        {
+            rb.AddForce((transform.position - player.position).normalized * player.GetComponent<Player>().power);
+        }
     }
 
     void Update()

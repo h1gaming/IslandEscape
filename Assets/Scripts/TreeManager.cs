@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TreeManager : MonoBehaviour {
 
+    public Transform player;
 
     void Start()
     {
